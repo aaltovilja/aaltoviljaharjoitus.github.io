@@ -1,0 +1,65 @@
+            <p>-------------------------------------------------------------------------------------------------------------</p>
+                <h1 id="otsikko" class="otsikot">Peruselementit ja attribuutit</h1>
+                <p> HTML tulee sanoista Hypertext Markup Language. Tämä tarkoittaa lyhyesti merkintäkieltä hypertekstille. 
+                    Hyperteksti on tekstiä joka liittyy toisiin teksteihin linkkien avulla. </p>
+                <h2 class="otsikot">Elementtityyppejä</h2>
+                <p>HTML:ssä on erilaisia elementtejä eri tarkoitukseen. Elementit voidaan jakaa block ja inline-elemnetteihin. 
+                    Lyhyesti ja karkeasti, inline elemntit ohjaavat tekstisisältöä tms. ja block elementit jäsentävät sivua. 
+                    Yleisesti ottaen block elementit voivat olla sivulla itsenäisesti - inline elementit ovat block elementtien sisällä. </p>
+                <h3 class="otsikot">Inline elementtiesimerkkejä</h3>
+                <p>Inline esimerkkejä kuten <i>kursiivi</i>, <b>lihavointi</b>, <u>alleviivaus</u> voidaan käyttää tekstin muotoiluun tai niillä 
+                    voidaan asettaa tekstin joukkoon toiminnallisuuksia kuten linkkielementti a ja span-elementti, jolla voidaan tuoda css- ja javascript- 
+                    tiedostojen määrityksiä ja toiminnallisuuksia sivulle. Myös kuvaelementti img on inline elementti, vaikkakin se voi toimia myös block
+                    tyyppisenä elementtinä. 
+                <h3 class="otsikot">Block elementtiesimerkkejä</h3>
+                <p> Block elementtejä käytetään sivuston jäsentämiseen ja taittoon. Yksinkertainen esimerkki tästä on kappale p elementti.</p>
+                <p> Block elementtejä käytetään usein ns.container -elementteinä, tästä hyvä esimerkki on div ja section elementit</p> 
+                <p> Joidenkin block elenetttien sisältö on ennalta määritelty, tällaisia esimerkiksi listat ja taulukot</p>
+                <h2 class="otsikot">Taulukko</h2>
+                <p>Taulukko aloitetaan table elementillä, otsikko osio erotetaan thead-elementillä, sisältö erotetaan tbody
+            
+                <h2 id="taulukko1" class="taulukko"></h2> 
+                    <table>
+                        <thead>
+                            <tr>
+                            <td>Solu11</td>
+                            <td>Solu12</td>
+                            <td>Solu13</td>
+                            </tr>
+                            <tr>
+                            <td>Solu21</td>
+                            <td>Solu22</td>
+                            <td>Solu23</td>
+                            </tr>
+                            <tr>
+                            <td>Solu31</td>
+                            <td>Solu32</td>
+                            <td>Solu33</td>
+                            </tr>
+                        </thead>
+                    </table>    
+                <h3 class="otsikot">Numeroitu lista</h3>
+                        <thead>
+                            <ol>
+                            <li>X</li>
+                            <li>Y</li>
+                            <li>Z</li>
+                            </ol>
+                        </thead> 
+                <h3 class="otsikot">Numeroimaton lista</h3>
+                    <table>
+                        <thead>   
+                                <td>
+                                <ul>
+                                    <li>X</li>
+                                    <li>Y</li>
+                                    <li>Z</li>
+                                </ul>
+                                </td> 
+                        </thead>
+                    </table>
+                <h2 class="otsikot">Kuva</h2>
+                    <p> <img src="VA.jpg" width="300px"/>
+                <h2 class="otsikot">Linkki</h2>
+                    <a href="https://aaltonenvilja.wixsite.com/portfolio/about" target="_blank">Linkki portfolioon</a>
+                <p>-------------------------------------------------------------------------------------------------------------</p>
